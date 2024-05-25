@@ -22,4 +22,6 @@ using Newtonsoft.Json;
 
 //}
 HttpClientExamplt httpClientExamplt = new HttpClientExamplt();
-await httpClientExamplt.run();
+await httpClientExamplt.RunAsync();
+
+Console.ReadLine();

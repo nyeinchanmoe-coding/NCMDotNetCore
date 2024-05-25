@@ -12,7 +12,7 @@ namespace NCMDotNetCore.ConsoleApp.AdoDotNetExamples
     {
         private readonly SqlConnectionStringBuilder _sqlConnectionStringBuilder = new SqlConnectionStringBuilder()
         {
-            DataSource = "DESKTOP-C8JODRL",
+            DataSource = "DESKTOP-K673C05",
             InitialCatalog = "NCMDotNetCore",
             UserID = "sa",
             Password = "sa@123",
