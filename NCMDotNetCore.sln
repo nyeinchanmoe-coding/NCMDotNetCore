@@ -15,7 +15,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NCMDotNetCore.ConsoleAppHtt
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NCMDotNetCore.ConsoleAppHttpClientExamples", "NCMDotNetCore.ConsoleAppHttpClientExamples\NCMDotNetCore.ConsoleAppHttpClientExamples.csproj", "{F12A5255-CB13-4587-9E13-17CCBA7B76D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NCMDotNetCore.ConsoleAppRestClientExamples", "NCMDotNetCore.ConsoleAppRestClientExamples\NCMDotNetCore.ConsoleAppRestClientExamples.csproj", "{5BA07445-BD19-4E10-B502-07E89075B66F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NCMDotNetCore.ConsoleAppRestClientExamples", "NCMDotNetCore.ConsoleAppRestClientExamples\NCMDotNetCore.ConsoleAppRestClientExamples.csproj", "{5BA07445-BD19-4E10-B502-07E89075B66F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NCMDotNetCore.PizzaApi", "NCMDotNetCore.PizzaApi\NCMDotNetCore.PizzaApi.csproj", "{FD0BAE51-C0A4-4C76-9C47-C881B74224C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NCMDotNetCore.ConsoleAppRefitExamples", "NCMDotNetCore.ConsoleAppRetfitExamples\NCMDotNetCore.ConsoleAppRefitExamples.csproj", "{E61AB375-CB5D-4895-94F6-AEEEA8EEADC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NCMDotNetCore.WinFormsApp", "NCMDotNetCore.WinFormsApp\NCMDotNetCore.WinFormsApp.csproj", "{6144308E-911E-4CED-BBCC-E5DF8852F5D2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +57,18 @@ Global
 		{5BA07445-BD19-4E10-B502-07E89075B66F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5BA07445-BD19-4E10-B502-07E89075B66F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5BA07445-BD19-4E10-B502-07E89075B66F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD0BAE51-C0A4-4C76-9C47-C881B74224C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD0BAE51-C0A4-4C76-9C47-C881B74224C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD0BAE51-C0A4-4C76-9C47-C881B74224C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD0BAE51-C0A4-4C76-9C47-C881B74224C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E61AB375-CB5D-4895-94F6-AEEEA8EEADC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E61AB375-CB5D-4895-94F6-AEEEA8EEADC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E61AB375-CB5D-4895-94F6-AEEEA8EEADC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E61AB375-CB5D-4895-94F6-AEEEA8EEADC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6144308E-911E-4CED-BBCC-E5DF8852F5D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6144308E-911E-4CED-BBCC-E5DF8852F5D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6144308E-911E-4CED-BBCC-E5DF8852F5D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6144308E-911E-4CED-BBCC-E5DF8852F5D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
