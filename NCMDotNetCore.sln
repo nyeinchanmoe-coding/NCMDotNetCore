@@ -17,11 +17,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NCMDotNetCore.ConsoleAppHtt
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NCMDotNetCore.ConsoleAppRestClientExamples", "NCMDotNetCore.ConsoleAppRestClientExamples\NCMDotNetCore.ConsoleAppRestClientExamples.csproj", "{5BA07445-BD19-4E10-B502-07E89075B66F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NCMDotNetCore.PizzaApi", "NCMDotNetCore.PizzaApi\NCMDotNetCore.PizzaApi.csproj", "{FD0BAE51-C0A4-4C76-9C47-C881B74224C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NCMDotNetCore.PizzaApi", "NCMDotNetCore.PizzaApi\NCMDotNetCore.PizzaApi.csproj", "{FD0BAE51-C0A4-4C76-9C47-C881B74224C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NCMDotNetCore.ConsoleAppRefitExamples", "NCMDotNetCore.ConsoleAppRetfitExamples\NCMDotNetCore.ConsoleAppRefitExamples.csproj", "{E61AB375-CB5D-4895-94F6-AEEEA8EEADC9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NCMDotNetCore.ConsoleAppRefitExamples", "NCMDotNetCore.ConsoleAppRetfitExamples\NCMDotNetCore.ConsoleAppRefitExamples.csproj", "{E61AB375-CB5D-4895-94F6-AEEEA8EEADC9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NCMDotNetCore.WinFormsApp", "NCMDotNetCore.WinFormsApp\NCMDotNetCore.WinFormsApp.csproj", "{6144308E-911E-4CED-BBCC-E5DF8852F5D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NCMDotNetCore.WinFormsApp", "NCMDotNetCore.WinFormsApp\NCMDotNetCore.WinFormsApp.csproj", "{6144308E-911E-4CED-BBCC-E5DF8852F5D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetTrainingBatch4.NLayer.UI", "DotNetTrainingBatch4.NLayer.UI\DotNetTrainingBatch4.NLayer.UI.csproj", "{4F63037E-644F-4EB6-B936-21705BCF25C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetTrainingBatch4.NLayer.BusinessLogic", "DotNetTrainingBatch4.NLayer.BusinessLogic\DotNetTrainingBatch4.NLayer.BusinessLogic.csproj", "{0FDE3A15-3296-43B5-AA8B-DBB331D5A0A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetTrainingBatch4.NLayer.DataAccess", "DotNetTrainingBatch4.NLayer.DataAccess\DotNetTrainingBatch4.NLayer.DataAccess.csproj", "{5A2A3D65-511C-4094-B825-5845D409CD07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NCMDotNetCore.WindowFormsAppSqlInjection", "NCMDotNetCore.WindowFormsAppSqlInjection\NCMDotNetCore.WindowFormsAppSqlInjection.csproj", "{F2941498-C061-4A97-B433-67EBB4DD700B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +77,22 @@ Global
 		{6144308E-911E-4CED-BBCC-E5DF8852F5D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6144308E-911E-4CED-BBCC-E5DF8852F5D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6144308E-911E-4CED-BBCC-E5DF8852F5D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F63037E-644F-4EB6-B936-21705BCF25C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F63037E-644F-4EB6-B936-21705BCF25C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F63037E-644F-4EB6-B936-21705BCF25C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F63037E-644F-4EB6-B936-21705BCF25C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FDE3A15-3296-43B5-AA8B-DBB331D5A0A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FDE3A15-3296-43B5-AA8B-DBB331D5A0A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FDE3A15-3296-43B5-AA8B-DBB331D5A0A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FDE3A15-3296-43B5-AA8B-DBB331D5A0A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A2A3D65-511C-4094-B825-5845D409CD07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A2A3D65-511C-4094-B825-5845D409CD07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A2A3D65-511C-4094-B825-5845D409CD07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A2A3D65-511C-4094-B825-5845D409CD07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2941498-C061-4A97-B433-67EBB4DD700B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2941498-C061-4A97-B433-67EBB4DD700B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2941498-C061-4A97-B433-67EBB4DD700B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2941498-C061-4A97-B433-67EBB4DD700B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
